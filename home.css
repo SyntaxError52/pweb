@@ -1,0 +1,52 @@
+body {
+    background-color: black;
+    text-align: center;
+    color: white;
+    font-family: system-ui, -apple-system, 'Helvetica Neue', sans-serif;
+}
+/* Navbar magic, only God knows how this works */
+.navbar {
+    text-align: left;
+    background-color: gray;
+    font-size: 25px;
+    border-radius: 15px;
+    padding: 1px;
+}
+ul {
+    list-style-type: none;
+}
+li {
+    display: inline;
+}
+a {
+    color: black;
+    text-decoration: none;
+    transition: 1s;
+    padding: 2px;
+}
+a:hover {
+    background-color: beige;
+    border-radius: 15px;
+}
+/* Add margin to <main> Area */
+main {
+    margin: 30px;
+}
+img {
+    /* Add image "frame" */
+    border: 15px solid darkorange;
+    border-radius: 15px;
+}
+/* Make caption look good */
+.header {
+    background-color: #0d0d0d;
+    border-radius: 15px;
+    padding: 5px;
+    padding-left: 25px;
+    padding-right: 25px;
+    text-align: center;
+    transition: 15s;
+}
+.header:hover {
+    background-color: #808080;
+}

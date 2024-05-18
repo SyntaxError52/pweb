@@ -22,5 +22,6 @@ function generateString(length) {
 //////////////////////
 
 document.addEventListener('mousemove', () => {
-    document.getElementsByClassName('randomText').innerHTML = generateString(9999999);
+    document.getElementsById('randomText1').innerHTML = generateString(9999999);
+    document.getElementsById('randomText2').innerHTML = generateString(9999999);
 });

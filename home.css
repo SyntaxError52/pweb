@@ -27,6 +27,7 @@ a {
 a:hover {
     background-color: beige;
     border-radius: 15px;
+    padding: 3px;
 }
 /* Add margin to <main> Area */
 main {

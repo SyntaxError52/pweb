@@ -2,6 +2,7 @@ body {
     background-color: black;
     text-align: center;
     color: white;
+    margin: 0;
     font-family: system-ui, -apple-system, 'Helvetica Neue', sans-serif;
 }
 /* Navbar magic, only God knows how this works */
@@ -9,8 +10,8 @@ body {
     text-align: left;
     background-color: gray;
     font-size: 25px;
-    border-radius: 15px;
     padding: 1px;
+    box-shadow: 8px 8px 10px grey;
 }
 ul {
     list-style-type: none;

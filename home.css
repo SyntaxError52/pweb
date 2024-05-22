@@ -10,6 +10,7 @@ body {
     background-color: gray;
     font-size: 25px;
     padding: 1px;
+    border-radius: 15px;
 }
 ul {
     list-style-type: none;
